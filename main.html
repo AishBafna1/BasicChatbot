@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <a href="#home">HOME</a> |
+                <a href="#menu">MENU</a> |
+                <a href="#location">LOCATION</a> |
+                <a href="#aboutus">ABOUT US</a> |
+                <a href="#contactus">CONTACT US</a>
+            </nav>
+        </header>
+
+        <section id="home">
+            <img src="banner2.png" >
+            <!-- Add images here -->
+        </section>
+
+        <section id="menu">
+            <h2>Our Menu</h2>
+            <div class="grid-container">
+                <img src="menuu1.png" alt="Menu item 1">
+                <img src="menuu2.png" alt="Menu item 2">
+                <img src="menuu3.png" alt="Menu item 3">
+            </div>
+        </section>
+
+        <section id="location">
+            <h2>Location</h2>
+            <p>Ballyfermot, Dublin 10</p>
+            <!-- Add map widget here -->
+        </section>
+
+        <section id="contactus">
+            <h2>Contact Us</h2>
+            <p>Got questions? Want to place an order? Call us at +3531234578 or email us at koki@fastfood.com</p>
+        </section>
+
+        <!-- Chatbot container -->
+        <div class="chatbot-container">
+            <div class="chatbot-header">
+                Natasha
+            </div>
+            <div class="chatbot-body" id="chatbot-body">
+                <!-- Chat messages will be displayed here -->
+            </div>
+            <div class="user-input-container">
+                <input type="text" class="user-input" id="user-input" placeholder="Type your message...">
+                <button class="send-btn" id="send-btn">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
